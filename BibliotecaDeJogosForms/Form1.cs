@@ -47,7 +47,7 @@ namespace BibliotecaDeJogosForms
             String metaCritic = textMetacritic.Text;
 
             Jogo jogo = new Jogo(titulo, genero, ano, maxJogadores, metaCritic);
-            MessageBox.Show("Jogo adicionado com sucesso!");
+            MessageBox.Show("Jogo adicionado com sucesso!"); 
         }
     }
 }

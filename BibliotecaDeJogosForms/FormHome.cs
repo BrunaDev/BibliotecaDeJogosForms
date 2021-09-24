@@ -26,5 +26,10 @@ namespace BibliotecaDeJogosForms
             Form2 form2 = new Form2();
             form2.Show();
         }
+
+        private void FormHome_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

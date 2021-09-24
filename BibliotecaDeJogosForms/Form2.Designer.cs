@@ -30,17 +30,29 @@ namespace BibliotecaDeJogosForms
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Engravers MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(120, 203);
+            this.label1.Location = new System.Drawing.Point(115, 200);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(537, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Eu tentei, mas a paciência foi embora no processo";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Engravers MT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(126, 253);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(510, 28);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Notebook travando, visual studio pegando fogo, \r\nvai mostrar a solução na aula si" +
+    "m!";
             // 
             // Form2
             // 
@@ -48,6 +60,7 @@ namespace BibliotecaDeJogosForms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::BibliotecaDeJogosForms.Properties.Resources.Biblioteca_de_Jogos__1_;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Lista de jogos";
@@ -60,5 +73,6 @@ namespace BibliotecaDeJogosForms
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

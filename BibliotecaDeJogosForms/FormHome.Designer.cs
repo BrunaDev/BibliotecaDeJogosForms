@@ -67,6 +67,7 @@ namespace BibliotecaDeJogosForms
             this.Controls.Add(this.btForm1);
             this.Name = "FormHome";
             this.Text = "Home";
+            this.Load += new System.EventHandler(this.FormHome_Load);
             this.ResumeLayout(false);
 
         }
